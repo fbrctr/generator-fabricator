@@ -1,0 +1,3 @@
+[submodule "app/templates/fabricator"]
+	path = app/templates/fabricator
+	url = git@github.com:resource/fabricator.git
