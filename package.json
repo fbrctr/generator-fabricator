@@ -1,6 +1,6 @@
 {
   "name": "generator-fabricator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build your own UI framework",
   "license": "MIT",
   "main": "app/index.js",
