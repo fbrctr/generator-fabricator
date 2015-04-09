@@ -1,6 +1,6 @@
 # <%= projectName %>
 
-The <%= projectName %> UI toolkit is a tool for rapid website development. It provides a set of fully-functional components and structures that can be used to build scalable web pages.
+The <%= projectName %> UI toolkit is a highly-modular design system for rapid web page development. It contains different materials that can be assembled into more complex page layouts.
 
 ## Getting Started
 
@@ -8,7 +8,9 @@ The <%= projectName %> UI toolkit is a tool for rapid website development. It pr
 
 **Start the local development environment:**
 
-`$ npm start`
+```
+$ npm start
+```
 
 ### Development Environment Features
 
@@ -20,9 +22,11 @@ The <%= projectName %> UI toolkit is a tool for rapid website development. It pr
 
 ## Build
 
-**Build for production release:**
+**Build for release:**
 
-`$ npm run build`
+```
+$ npm run build
+```
 
 Fabricator builds both a static documentation site and optimized CSS and JS toolkit files.
 

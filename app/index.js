@@ -35,13 +35,12 @@ var FabricatorGenerator = yeoman.generators.Base.extend({
     app: function () {
       this.dest.mkdir('src');
       this.directory('fabricator/src', 'src');
-      this.dest.mkdir('tasks');
-      this.directory('fabricator/tasks', 'tasks');
     },
 
     projectfiles: function () {
       var ignores = [
         '.git',
+        '.travis.yml',
         'LICENSE.md',
         'README.md'
       ];
@@ -57,12 +56,12 @@ var FabricatorGenerator = yeoman.generators.Base.extend({
         }
       }, this);
 
-      this.template("README.md", "README.md");
+      this.template('README.md', 'README.md');
     }
   },
 
   end: function () {
-    this.spawnCommand('npm', ['run', 'dev']);
+    this.spawnCommand('npm', ['start']);
   }
 });
 
