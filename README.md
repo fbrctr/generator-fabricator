@@ -21,6 +21,12 @@ Run:
 $ yo fabricator
 ```
 
+## Fabricator
+
+Fabricator is a tool for building website UI toolkits. It's a full-featured stack that's super helpful if your building large, complex design systems.
+
+#### [Learn more about Fabricator →](http://fbrctr.github.io)
+
 
 ## License
 
