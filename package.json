@@ -1,6 +1,6 @@
 {
   "name": "generator-fabricator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Yeoman generator that scaffolds a new Fabricator instance for building a website UI toolkit.",
   "license": "MIT",
   "main": "app/index.js",
