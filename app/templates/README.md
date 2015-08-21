@@ -14,7 +14,7 @@ $ npm start
 
 ### Development Environment Features
 
-- Live preview sever (using [BrowserSync](http://www.browsersync.io/))
+- Live preview server (using [BrowserSync](http://www.browsersync.io/))
 - CSS Autoprefixing
 - Sass compilation
 - Browserify bundling
